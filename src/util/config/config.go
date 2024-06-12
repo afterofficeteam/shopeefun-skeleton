@@ -18,7 +18,6 @@ type Config struct {
 	DBDebug      bool
 	BaseURLPath  string
 	DBSSLMode    string
-	RabbitURL    string
 }
 
 func LoadConfig() (*Config, error) {
@@ -43,7 +42,6 @@ func LoadConfig() (*Config, error) {
 		DBName:      viper.GetString("DB_NAME"),
 		DBDebug:     viper.GetBool("DB_DEBUG"),
 		DBPort:      viper.GetInt("DB_PORT"),
-		RabbitURL:   viper.GetString("RABBIT_URL"),
 	}
 
 	return config, nil
