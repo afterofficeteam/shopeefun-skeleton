@@ -1,9 +1,9 @@
 package main
 
 import (
-	"base-project/src/util/config"
-	"base-project/src/util/routes"
 	"database/sql"
+	"user-service/src/util/config"
+	"user-service/src/util/routes"
 
 	"github.com/thedevsaddam/renderer"
 )

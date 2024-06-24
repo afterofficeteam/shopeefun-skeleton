@@ -1,8 +1,8 @@
 package helper
 
 import (
-	"base-project/src/util/repository/model"
 	"net/http"
+	"user-service/src/util/repository/model"
 
 	"github.com/thedevsaddam/renderer"
 )

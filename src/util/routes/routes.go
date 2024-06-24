@@ -1,13 +1,13 @@
 package routes
 
 import (
-	"base-project/src/util/config"
 	"fmt"
 	"log"
 	"net/http"
 	"net/http/httptest"
 	"strings"
 	"time"
+	"user-service/src/util/config"
 
 	"github.com/gorilla/mux"
 	"github.com/spf13/viper"
